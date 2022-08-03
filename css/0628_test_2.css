@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    list-style: none;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    margin: 2px 0px;
+    opacity: 0.5;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 100px;
+    display: none;
+}
+
+p:hover+img {
+    display: block;
+}
+
+p:hover {
+    opacity: 1;
+}
+
+ul {
+    padding: 0;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- scope co,row는 행열을 나타냄 -->
+
+<body>
+    <table border="1">
+        <caption>테이블 구조</caption>
+
+        <thead>
+            <tr>
+                <th>구분</th>
+                <th scope="co1">항목1</th>
+                <th scope="co1">항목2</th>
+                <th scope="co1">항목3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">a</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <th scope="row">b</th>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <th scope="row">c</th>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+
+            <tr>
+                <th scope="row">d</th>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">총계</th>
+                <td>22</td>
+                <td>26</td>
+                <td>30</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- div{$}*10 -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+
+    <!-- div{$@3}*8 -->
+
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+
+    <!-- div{$@-}/*10 -->
+    <div>10</div>
+    <div>9</div>
+    <div>8</div>
+    <div>7</div>
+    <div>6</div>
+    <div>5</div>
+    <div>4</div>
+    <div>3</div>
+    <div>2</div>
+    <div>1</div>
+</body>
+
+</html>
